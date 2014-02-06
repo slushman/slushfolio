@@ -1,0 +1,45 @@
+/***** Slushman Portfolio stylesheet *****/
+
+#slushmanportfolioorderboxtext {
+	float:right; 
+	width: 200px; 
+	padding-right:10px; 
+	margin-top: -1em; 
+	display: inline;
+	}
+	
+.form_table {
+	font-size: 11px;
+}
+
+/***** Slushman Portfolio admin pages stylesheet *****/
+
+input[type="radio"],
+.slushman_portfolio_type_fields label {
+	margin: 1px 3px 4px 0 !important;
+	line-height: 1.5em;
+}
+
+
+
+/* Styling for type fields metaboxes */
+
+#slushman_portfolio_types_radios {
+	margin-top: 3px;
+	line-height: 1.5em;
+}
+
+.slushman_portfolio_type_fields th {
+	vertical-align: top;
+	text-align: left;
+	padding: 5px;
+}
+
+.slushman_portfolio_type_fields input[type="text"],
+.slushman_portfolio_type_fields input[type="url"],
+.slushman_portfolio_type_fields input[type="tel"],
+.slushman_portfolio_type_fields input[type="email"],
+textarea,
+.slushman_portfolio_input_field {
+	width: 400px;
+}
